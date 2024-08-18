@@ -1,0 +1,94 @@
+[
+    {
+        "Question_id": "Perception/Autonomous_Driving/Objects_Identify/0000", 
+        "Question Type": "Multiple Choice", 
+        "Image": "AutonomousDriving/nuScenes/n008-2018-05-21-11-06-59-0400__CAM_FRONT__1526915269912465.jpg", 
+        "Text": "This image shows the front view of the ego car. What are objects to the front of the ego car?", 
+        "Answer choices": [
+            "(A) There are many cars, one pedestrian, one bicycle, one motorcycle, two trucks, and one trailer.", 
+            "(B) There are many pedestrians, many barriers, one car, and one truck.", 
+            "(C) There are many cars, one truck, and three pedestrians.", 
+            "(D) There are many cars and one truck.", 
+            "(E) All the above answers are wrong."
+        ], 
+        "Ground truth": "D", 
+        "Task": "Perception", 
+        "Subtask": "Autonomous_Driving", 
+        "Category": "Objects_Identify", 
+        "Dataset": "nuScenes", 
+        "Output": "D"
+    },
+    {
+        "Question_id": "perception/diagram_and_table/diagram/0558", 
+        "Image": "diagram_and_table/cons9.jpg", 
+        "Text": "What is the data of Interest in Feb-23 in the table?", 
+        "Question Type": "Multiple Choice", 
+        "Answer choices": [
+            "(A) 458", 
+            "(B) 457", 
+            "(C) 456", 
+            "(D) 455", 
+            "(E) This image doesn't feature the data."
+        ], 
+        "Ground truth": "B", 
+        "Category": "diagram", 
+        "Subtask": "Diagram and Table", 
+        "Task": "Perception", 
+        "Output": "A"
+    },
+    {
+        "Question_id": "perception/monitoring/Vehicle/counting/0310", 
+        "Image": "monitoring_images/9999998_00382_d_0000334.jpg", 
+        "Text": "What is the number of buses in the image?", 
+        "Question type": "Multiple Choice", 
+        "Answer choices": [
+            "(A) 13", 
+            "(B) 90", 
+            "(C) 77", 
+            "(D) 6", 
+            "(E) The image does not feature the buses"
+        ], 
+        "Ground truth": "E", 
+        "Category": "Vehicle/counting", 
+        "Subtask": "Monitoring", 
+        "Task": "Perception", 
+        "Output": "E"
+    },
+    {
+        "Question_id": "reasoning/diagram_and_table/diagram/0020", 
+        "Image": "diagram_and_table/2_Motorboat_Fleet_Motorboat-Rental-Business-scaled.webp", 
+        "Text": "Which motorboat category has the highest value of 'Avg. Rides/Motorboat/Day', according to the 'Avg. Rides per Motorboat per Day' diagram?", 
+        "Question Type": "Multiple Choice", 
+        "Answer choices": [
+            "(A) Center Console Boats", 
+            "(B) Deck Boats", 
+            "(C) Jet Skis", 
+            "(D) Pontoon Boats", 
+            "(E) The image does not feature the number."
+        ], 
+        "Ground truth": "C", 
+        "Category": "diagram", 
+        "Subtask": "Diagram and Table", 
+        "Task": "Reasoning", 
+        "Output": "D"
+    },
+    {
+        "Question_id": "reasoning/diagram_and_table/diagram/0021", 
+        "Image": "diagram_and_table/02-crane-rental-service.webp", 
+        "Text": "In which year does the value of 'Crane Rental Rate' first exceed 1,400,000, according to the 'Crane Rentals' section?", 
+        "Question Type": "Multiple Choice", 
+        "Answer choices": [
+            "(A) 2029", 
+            "(B) 2030", 
+            "(C) 2031", 
+            "(D) 2032", 
+            "(E) The image does not feature the number."
+        ], 
+        "Ground truth": "C", 
+        "Category": "diagram", 
+        "Subtask": "Diagram and Table", 
+        "Task": "Reasoning", 
+        "Output": "A"
+    }
+
+]
