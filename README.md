@@ -1,4 +1,4 @@
-# MME-RealWorld: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis
+# MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?
 
 ![VQA](https://img.shields.io/badge/Task-ImageQA-red) 
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
@@ -11,17 +11,15 @@
     <img src="./asset/name_logo.jpg" width="100%" height="100%">
 </p>
 
-<font size=7><div align='center' > [[🍎 Project Page](https://MME-RealWorld.github.io/)] [[📖 arXiv Paper](https://arxiv.org/pdf/2405.21075)] [[📊 Dataset](https://github.com/BradyFU/MME-RealWorld?tab=readme-ov-file#-dataset)][[🏆 Leaderboard](https://MME-RealWorld.github.io/home_page.html#leaderboard)]  </div></font>
+<font size=7><div align='center' > [[🍎 Project Page](https://mme-realworld.github.io/)] [[📖 arXiv Paper](https://arxiv.org/pdf/2405.21075)] [[📊 Dataset](https://github.com/BradyFU/MME-RealWorld?tab=readme-ov-file#-dataset)][[🏆 Leaderboard](https://MME-RealWorld.github.io/home_page.html#leaderboard)]  </div></font>
 
-MME-RealWorld applies to both **image MLLMs**, i.e., generalizing to multiple images, and **video MLLMs**. 🌟
 
 
 ---
 
 ## 🔥 News
-* **`2024.06.15`** 🌟 We have refreshed our evaluation: 1) replace broken and potentially broken video links, and re-annotated them; 2) GPT-4o now samples 384 frames (previously 10 from the website) at 512x512 resolution, boosting overall accuracy to 71.9%.
-* **`2024.06.03`** 🌟 We are very proud to launch MME-RealWorld, the first-ever comprehensive evaluation benchmark of MLLMs in Video Analysis!
 
+* **`2024.08.20`** 🌟 We are very proud to launch MME-RealWorld, which contains 13K high-quality images, annotated by more than 30 workers, resulting in 29K question-answer pairs that cover 43 subtasks across five real-world scenarios.
 
 
 ## 👀 MME-RealWorld Overview
@@ -43,13 +41,6 @@ Comprehensive evaluation of Multimodal Large Language Models (MLLMs) has recentl
     (2) *Translation mismatch* ([tang2024mtvqa](https://arxiv.org/pdf/2405.11985)), where machine translation is not precise and perfect enough. 
 
     We collect additional images and ensure that all images focus on Chinese scenarios, asking Chinese workers for annotation. This results in $5,917$ QA pairs.
-
-<!-- In the quest for artificial general intelligence, Multi-modal Large Language Models (MLLMs) have emerged as a focal point in recent advancements, but their potential in processing sequential visual data is still insufficiently explored. We introduce <strong>MME-RealWorld</strong>, the first-ever full-spectrum, <strong>M</strong>ulti-<strong>M</strong>odal <strong>E</strong>valuation benchmark of MLLMs in <strong>Video</strong> analysis. It is designed to comprehensively assess the capabilities of MLLMs in processing video data, covering a wide range of visual domains, temporal durations, and data modalities. MME-RealWorld comprises **900 videos** with a total of 254 hours, and **2,700 human-annotated question-answer pairs**. Our work distinguishes from existing benchmarks through four key features: 
-* *Duration in temporal dimension*. Encompassing both **short- (< 2min)**, **medium- (4min\~15min)**, and **long-term (30min\~60min)** videos, ranging from **11 seconds to 1 hour**, for robust contextual dynamics;
-* *Diversity in video types*. Spanning **6 primary visual domains**, i.e., Knowledge, Film & Television, Sports Competition, Life Record, and Multilingual, with **30 subfields** to ensure broad scenario generalizability;
-* *Breadth in data modalities*. Integrating multi-modal inputs besides video frames, including **subtitles and audios**, to assess the all-round capabilities of MLLMs;
-* *Quality in annotations*. **All data are newly collected and annotated by humans, not from any existing video dataset**, ensuring diversity and quality.  -->
-
 
 <p align="center">
     <img src="./asset/MME_RealWorld.png" width="100%" height="100%">
@@ -77,25 +68,15 @@ Comprehensive evaluation of Multimodal Large Language Models (MLLMs) has recentl
 ```
 MME-RealWorld is only used for academic research. Commercial use in any form is prohibited.
 The copyright of all images belongs to the image owners.
-If there is any infringement in MME-RealWorld, please email videomme2024@gmail.com and we will remove it immediately.
+If there is any infringement in MME-RealWorld, please email yifanzhang.cs@gmail.com and we will remove it immediately.
 Without prior approval, you cannot distribute, publish, copy, disseminate, or modify MME-RealWorld in whole or in part. 
 You must strictly comply with the above restrictions.
 ```
 
-Please send an email to **videomme2024@gmail.com**. 🌟
+Please send an email to **yifanzhang.cs@gmail.com**. 🌟
 
 
 ## 🔮 Evaluation Pipeline
-<!-- 📍 **Extract Frames and Subtitles**:
-
-we select or collect **13,366** high-quality images from more than **300,000** public images and internet sources. The selected images have an average resolution of **1,734 × 1,734**, containing
-rich image details and presenting more challenges for recognition.
-
-With respect to the setting of adding subtitles, you should only use the subtitles corresponding to the sampled video frames.
-For example, if you extract 10 frames per video for evaluation, take the 10 subtitles that corresponding to the time of those 10 frames.
-
-If you have already prepared the video and subtitle file, you could refer to [this script](https://github.com/look4u-ok/video-slicer) to extract the frames and corresponding subtitles. -->
-
 
 📍 **Prompt**:
 
@@ -112,36 +93,6 @@ Select the best answer to the above multiple-choice question based on the image.
 The best answer is:
 ```
 
-
-
-<!-- <details>
-<summary> Click to expand the prompt examples.</summary>
-
-* With subtitles:
-
-```
-This video's subtitles are listed below:
-Hi guys, I'm going to show you how to perfectly prepare a ...
-Select the best answer to the following multiple-choice question based on the video. Respond with only the letter (A, B, C, or D) of the correct option.
-What is the color of the clothing worn by the persons in the video?
-A. Black.
-B. Gray.
-C. Green.
-D. Brown.
-The best answer is:
-```
-
-* Without subtitles:
-```
-Select the best answer to the following multiple-choice question based on the video. Respond with only the letter (A, B, C, or D) of the correct option.
-What is the color of the clothing worn by the persons in the video?
-A. Black.
-B. Gray.
-C. Green.
-D. Brown.
-The best answer is:
-```
-</details> -->
 
 
 📍 **Evaluation**: 
