@@ -54,7 +54,7 @@ We present MME-RealWord, a benchmark meticulously designed to address real-world
     <img src="./asset/MME_RealWorld.png" width="100%" height="100%">
 </p>
 
-## 📐 Dataset Examples
+## Dataset Examples
 
 <p align="center">
     <img src="./asset/teaser_task.png" width="100%" height="100%">
