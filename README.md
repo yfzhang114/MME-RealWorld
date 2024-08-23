@@ -70,7 +70,7 @@ We present MME-RealWord, a benchmark meticulously designed to address real-world
 </div>
 
 
-## 🔍 Dataset License
+## Dataset License
 
 **License**:
 ```
@@ -84,7 +84,7 @@ You must strictly comply with the above restrictions.
 Please send an email to **yifanzhang.cs@gmail.com**. 🌟
 
 
-## 🔮 Evaluation Pipeline
+## Evaluation Pipeline
 
 📍 **Prompt**:
 
@@ -122,7 +122,7 @@ Please ensure that the `results_file` follows the specified JSON format stated a
 If you want to add your model to our [leaderboard](https://MME-RealWorld.github.io/home_page.html#leaderboard), please send model responses to **bradyfu24@gmail.com**, as the format of [output_test_template.json](./evaluation/output_test_template.json).
 
 
-## 📈 Experimental Results
+## Experimental Results
 - **Evaluation results of different MLLMs on the perception tasks.**
 
 <p align="center">
@@ -149,7 +149,7 @@ If you want to add your model to our [leaderboard](https://MME-RealWorld.github.
 </p>
 
 
-## :black_nib: Citation
+## Citation
 
 If you find our work helpful for your research, please consider citing our work.   
 
@@ -162,7 +162,7 @@ If you find our work helpful for your research, please consider citing our work.
 }
 ```
 
-## 📜 Related Works
+## Related Works
 
 Explore our related researches:
 - **[SliME]** [Beyond LLaVA-HD: Diving into High-Resolution Large Multimodal Models](https://github.com/yfzhang114/SliME)
