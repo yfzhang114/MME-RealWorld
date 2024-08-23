@@ -31,7 +31,7 @@
 - [Related Works](#related-works)
 
 
-## 🔍 MME-RealWorld Overview
+## MME-RealWorld Overview
 
 Existing Multimodal Large Language Model benchmarks present several common barriers that make it difficult to measure the significant challenges that models face in the real world, including: 
 1) small data scale leads to a large performance variance; 
@@ -104,7 +104,7 @@ The best answer is:
 
 📍 **Evaluation**: 
 
-First, please download the images and data from our [Baidu Netdisk]() or Hugging Face. For Hugging Face, follow the instructions to decompress the split compressed images. The file `MME_RealWorld.json` contains the English version of the questions, while `MME_RealWorld_CN.json` contains the Chinese version. Place all the decompressed images in the same folder to ensure the paths are read correctly.
+First, please download the images and data from our [Baidu Netdisk](https://pan.baidu.com/s/1KO1t14TLN1RcwN5whbVY1g?pwd=p82w) or [Hugging Face Repo](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld). For Hugging Face, follow the instructions to decompress the split compressed images. The file `MME_RealWorld.json` contains the English version of the questions, while `MME_RealWorld_CN.json` contains the Chinese version. Place all the decompressed images in the same folder to ensure the paths are read correctly.
 
 
 To extract the answer and calculate the scores, we add the model response to a JSON file. Here we provide an example template [output_test_template.json](./evaluation/output_test_template.json). Once you have prepared the model responses in this format, please refer to the evaluation script [eval_your_results.py](./evaluation/eval_your_results.py), and you will get the accuracy scores across categories, subtasks, and task types. 
