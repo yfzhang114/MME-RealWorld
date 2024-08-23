@@ -1,4 +1,4 @@
-# MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?
+# ✨✨ MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?
 
 ![VQA](https://img.shields.io/badge/Task-ImageQA-red) 
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
@@ -21,7 +21,16 @@
 * **`2024.08.20`** 🌟 We are very proud to launch MME-RealWorld, which contains 13K high-quality images, annotated by more than 32 workers, resulting in 29K question-answer pairs that cover 43 subtasks across five real-world scenarios.
 
 
-## 👀 MME-RealWorld Overview
+## 👀 Contents
+- [MME-RealWorld Overview](#mme-realworld-overview)
+- [Dataset License](#dataset-license)
+- [Evaluation Pipeline](#evaluation-pipeline)
+- [Experimental Results](#experimental-results)
+- [Citation](#citation)
+- [Related Works](#related-works)
+
+
+## 🔍 MME-RealWorld Overview
 
 Existing Multimodal Large Language Model benchmarks present several common barriers that make it difficult to measure the significant challenges that models face in the real world, including: 
 1) small data scale leads to a large performance variance; 
@@ -59,7 +68,7 @@ We present MME-RealWord, a benchmark meticulously designed to address real-world
 </div>
 
 
-## 🔍 Dataset
+## 🔍 Dataset License
 
 **License**:
 ```
@@ -93,6 +102,9 @@ The best answer is:
 
 
 📍 **Evaluation**: 
+
+First, please download the images and data from our [Baidu Netdisk]() or Hugging Face. For Hugging Face, follow the instructions to decompress the split compressed images. The file `MME_RealWorld.json` contains the English version of the questions, while `MME_RealWorld_CN.json` contains the Chinese version. Place all the decompressed images in the same folder to ensure the paths are read correctly.
+
 
 To extract the answer and calculate the scores, we add the model response to a JSON file. Here we provide an example template [output_test_template.json](./evaluation/output_test_template.json). Once you have prepared the model responses in this format, please refer to the evaluation script [eval_your_results.py](./evaluation/eval_your_results.py), and you will get the accuracy scores across categories, subtasks, and task types. 
 The evaluation does not introduce any third-party models, such as ChatGPT.
