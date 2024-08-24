@@ -11,7 +11,7 @@
     <img src="./asset/name_logo.jpg" width="100%" height="100%">
 </p>
 
-<font size=7><div align='center' > [[🍎 Project Page](https://mme-realworld.github.io/)] [[📖 arXiv Paper](https://arxiv.org/pdf/2405.21075)] [[📊 Dataset](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld)][[🏆 Leaderboard](https://MME-RealWorld.github.io/home_page.html#leaderboard)]  </div></font>
+<font size=7><div align='center' > [[🍎 Project Page](https://mme-realworld.github.io/)] [[📖 arXiv Paper](https://arxiv.org/pdf/2405.21075)] [[🤗 Dataset](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld)][[🏆 Leaderboard](https://MME-RealWorld.github.io/home_page.html#leaderboard)]  </div></font>
 
 
 ---
