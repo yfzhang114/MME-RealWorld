@@ -1,4 +1,4 @@
-# ✨✨ <img src="asset/logo.png" alt="Example Image" width="35" style="vertical-align: middle"/> MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?
+# ✨✨ <img src="asset/logo.png" alt="Example Image" width="25" style="vertical-align: middle"/> MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?
 
 ![VQA](https://img.shields.io/badge/Task-ImageQA-red) 
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
