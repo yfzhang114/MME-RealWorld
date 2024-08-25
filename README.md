@@ -123,6 +123,9 @@ If you want to add your model to our [leaderboard](https://MME-RealWorld.github.
 
 
 ## Experimental Results
+Models are ranked according to their average performance. Rows corresponding to proprietary models are highlighted in gray for distinction. “OCR”, “RS”, “DT”, “MO”, and “AD” each indicate a specific task domain: Optical Character Recognition in the Wild, Remote Sensing, Diagram and Table, Monitoring, and  Autonomous Driving, respectively. “Avg” and “Avg-C” indicate the weighted average accuracy
+and the unweighted average accuracy across
+subtasks in each domain.
 - **Evaluation results of different MLLMs on the perception tasks.**
 
 <p align="center">
