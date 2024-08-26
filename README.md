@@ -157,11 +157,13 @@ subtasks in each domain.
 If you find our work helpful for your research, please consider citing our work.   
 
 ```bibtex
-@article{fu2024video,
-  title={MME-RealWorld: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis},
-  author={Fu, Chaoyou and Dai, Yuhan and Luo, Yondong and Li, Lei and Ren, Shuhuai and Zhang, Renrui and Wang, Zihan and Zhou, Chenyu and Shen, Yunhang and Zhang, Mengdan and others},
-  journal={arXiv preprint arXiv:2405.21075},
-  year={2024}
+@misc{zhang2024mmerealworldmultimodalllmchallenge,
+      title={MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?}, 
+      author={Yi-Fan Zhang and Huanyu Zhang and Haochen Tian and Chaoyou Fu and Shuangqing Zhang and Junfei Wu and Feng Li and Kun Wang and Qingsong Wen and Zhang Zhang and Liang Wang and Rong Jin and Tieniu Tan},
+      year={2024},
+      eprint={2408.13257},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
 }
 ```
 
