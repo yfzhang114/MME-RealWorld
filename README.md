@@ -157,13 +157,11 @@ subtasks in each domain.
 If you find our work helpful for your research, please consider citing our work.   
 
 ```bibtex
-@misc{zhang2024mmerealworldmultimodalllmchallenge,
-      title={MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?}, 
-      author={Yi-Fan Zhang and Huanyu Zhang and Haochen Tian and Chaoyou Fu and Shuangqing Zhang and Junfei Wu and Feng Li and Kun Wang and Qingsong Wen and Zhang Zhang and Liang Wang and Rong Jin and Tieniu Tan},
-      year={2024},
-      eprint={2408.13257},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
+@article{zhang2024mme,
+  title={MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?},
+  author={Zhang, Yi-Fan and Zhang, Huanyu and Tian, Haochen and Fu, Chaoyou and Zhang, Shuangqing and Wu, Junfei and Li, Feng and Wang, Kun and Wen, Qingsong and Zhang, Zhang and others},
+  journal={arXiv preprint arXiv:2408.13257},
+  year={2024}
 }
 ```
 
