@@ -17,6 +17,9 @@
 ---
 
 ## 🔥 News
+* **`2024.09.03`** 🌟 MME-RealWorld is now supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository, enabling one-click evaluation—give it a try!" 
+
+* **`2024.09.01`** 🌟 Qwen2-VL currently ranks first on our leaderboard, but its overall accuracy remains below 60%, see our [leaderboard](https://mme-realworld.github.io/home_page.html#leaderboard) for the detail.
 
 * **`2024.08.20`** 🌟 We are very proud to launch MME-RealWorld, which contains 13K high-quality images, annotated by 32 volunteers, resulting in 29K question-answer pairs that cover 43 subtasks across 5 real-world scenarios. As far as we know, **MME-RealWorld is the largest manually annotated benchmark to date, featuring the highest resolution and a targeted focus on real-world applications**.
 
@@ -105,7 +108,12 @@ The best answer is:
 
 📍 **Evaluation**: 
 
-First, please download the images and data from our [Baidu Netdisk](https://pan.baidu.com/s/1KO1t14TLN1RcwN5whbVY1g?pwd=p82w) or [Hugging Face Repo](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld). For Hugging Face, follow the instructions to decompress the split compressed images. The file `MME_RealWorld.json` contains the English version of the questions, while `MME_RealWorld_CN.json` contains the Chinese version. Place all the decompressed images in the same folder to ensure the paths are read correctly.
+
+We offer two methods for downloading our images and QA pairs:
+
+1. **Base64 Encoded Images**: We have encoded all images in Base64 format and uploaded them to our [Hugging Face repository](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld-Base64), which includes two folders: `MME-RealWorld` and `MME-RealWorld-CN`. The JSON files within these folders can be read directly, with the images in Base64 format. By using the `evaluation/download_and_prepare_prompt.py` script and creating a class `MMERealWorld`, you can automatically download and convert the data into a CSV file that can be used directly. You can use the `decode_base64_to_image_file` function to convert the Base64 formatted images back into PIL format.
+
+2. **Direct Image Download**: You can download the images and data directly from our [Baidu Netdisk](https://pan.baidu.com/s/1KO1t14TLN1RcwN5whbVY1g?pwd=p82w) or [Hugging Face repository](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld). For Hugging Face, follow the instructions to decompress the split compressed images. The file `MME_RealWorld.json` contains the English version of the questions, while `MME_RealWorld_CN.json` contains the Chinese version. Make sure to place all the decompressed images in the same folder to ensure the paths are read correctly.
 
 
 To extract the answer and calculate the scores, we add the model response to a JSON file. Here we provide an example template [output_test_template.json](./evaluation/output_test_template.json). Once you have prepared the model responses in this format, please refer to the evaluation script [eval_your_results.py](./evaluation/eval_your_results.py), and you will get the accuracy scores across categories, subtasks, and task types. 
