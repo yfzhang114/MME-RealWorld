@@ -29,7 +29,7 @@ def extract_characters_regex(s, choices):
         "The answer",
         "The best option is"
         "The correct option is",
-        "Best answer:"
+        "Best answer:",
         "Best option:",
     ]
     for answer_prefix in answer_prefixes:
