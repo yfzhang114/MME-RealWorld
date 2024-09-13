@@ -17,7 +17,8 @@
 ---
 
 ## 🔥 News
-* **`2024.09.03`** 🌟 We provide a evaluation script based on LLaVA 1.5, please find it in `evaluation/model_vqa_mme_real_world.py`.
+* **`2024.09.13`** 🌟 We provide a evaluation script based on LLaVA 1.5, please find it in `evaluation/model_vqa_mme_real_world.py`.
+
 * **`2024.09.03`** 🌟 MME-RealWorld is now supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository, enabling one-click evaluation—give it a try!"  
 
 * **`2024.09.01`** 🌟 Qwen2-VL currently ranks first on our leaderboard, but its overall accuracy remains below 55%, see our [leaderboard](https://mme-realworld.github.io/home_page.html#leaderboard) for the detail.
