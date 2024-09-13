@@ -21,7 +21,7 @@
 
 * **`2024.09.03`** 🌟 MME-RealWorld is now supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository, enabling one-click evaluation—give it a try!"  
 
-* **`2024.09.01`** 🌟 Qwen2-VL currently ranks first on our leaderboard, but its overall accuracy remains below 55%, see our [leaderboard](https://mme-realworld.github.io/home_page.html#leaderboard) for the detail.
+* **`2024.09.01`** 🌟 Qwen2-VL currently ranks first on our leaderboard, but its overall accuracy remains below 60%, see our [leaderboard](https://mme-realworld.github.io/home_page.html#leaderboard) for the detail.
 
 * **`2024.08.20`** 🌟 We are very proud to launch MME-RealWorld, which contains 13K high-quality images, annotated by 32 volunteers, resulting in 29K question-answer pairs that cover 43 subtasks across 5 real-world scenarios. As far as we know, **MME-RealWorld is the largest manually annotated benchmark to date, featuring the highest resolution and a targeted focus on real-world applications**.
 
