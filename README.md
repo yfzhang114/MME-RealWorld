@@ -17,6 +17,7 @@
 ---
 
 ## 🔥 News
+* **`2024.09.22`** 🌟 MME-RealWorld is now supported by [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)! Feel free to use it without hesitation!
 * **`2024.09.13`** 🌟 We provide a evaluation script based on LLaVA 1.5, please find it in `evaluation/model_vqa_mme_real_world.py`.
 
 * **`2024.09.03`** 🌟 MME-RealWorld is now supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository, enabling one-click evaluation—give it a try!"  
