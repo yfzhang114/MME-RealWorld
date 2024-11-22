@@ -18,7 +18,7 @@
 
 ## 🔥 News
 * **`2024.11.14`** 🌟 MME-RealWorld now has a [lite version](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld-Lite) (50 samples per task, or all if fewer than 50) for inference acceleration, which is also supported by VLMEvalKit and Lmms-eval.
-* **`2024.09.29`** 🌟 [LLaVA-OneVision](https://arxiv.org/pdf/2408.03326) currently ranks first on our leaderboard, its overall accuracy remains below 60% (57.4%), see our [leaderboard](https://mme-realworld.github.io/home_page.html#leaderboard) for the detail.
+* **2024.11.11** 🌟 [Awaker2.5-VL-10B](https://arxiv.org/pdf/2408.03326) by [Metabrain AGI](https://www.metabrainagi.com/) currently holds the top position on our leaderboard. It is also the first model with 10 billion parameters to achieve a passing performance (60.8%). For more details, visit our [leaderboard](https://mme-realworld.github.io/home_page.html#leaderboard).
 * **`2024.09.22`** 🌟 MME-RealWorld is now supported by [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) and [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)! Feel free to use it without hesitation!
 * **`2024.09.13`** 🌟 We provide a evaluation script based on LLaVA 1.5, please find it in `evaluation/model_vqa_mme_real_world.py`.
 * **`2024.08.20`** 🌟 We are very proud to launch MME-RealWorld, which contains 13K high-quality images, annotated by 32 volunteers, resulting in 29K question-answer pairs that cover 43 subtasks across 5 real-world scenarios. As far as we know, **MME-RealWorld is the largest manually annotated benchmark to date, featuring the highest resolution and a targeted focus on real-world applications**.

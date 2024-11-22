@@ -46,8 +46,19 @@ def extract_characters_regex(s, choices):
     return matches[0]
 
 print(args.results_file)
-data = [json.loads(q) for q in open(os.path.expanduser(args.results_file), "r")]
-# 遍历所有问题
+file_path = os.path.expanduser(args.results_file)
+
+# Check the file extension and process accordingly
+if file_path.endswith(".jsonl"):
+    # For JSONL files (line-delimited JSON)
+    data = [json.loads(line) for line in open(file_path, "r")]
+elif file_path.endswith(".json"):
+    # For standard JSON files
+    with open(file_path, "r") as f:
+        data = json.load(f)  # Load the entire JSON file as a single object
+else:
+    raise ValueError(f"Unsupported file format: {file_path}")
+
 cnt = 0
 
 results = {}
@@ -62,7 +73,7 @@ for question in tqdm(data):
     Category = question['Category'].lower()
     question_id = question["Question_id"]
     ground_truth = question["Ground truth"]
-    text = question["output"]
+    text = question["Output"]
     
     if 'attribute' in Category.lower():
         Category = Category.split('/')[0] + '/attribute'
