@@ -127,7 +127,7 @@ Please ensure that the `results_file` follows the specified JSON format stated a
 
 📍 **Leaderboard**: 
 
-If you want to add your model to our [leaderboard](https://MME-RealWorld.github.io/home_page.html#leaderboard), please send model responses to **bradyfu24@gmail.com**, as the format of [output_test_template.json](./evaluation/output_test_template.json).
+If you want to add your model to our [leaderboard](https://MME-RealWorld.github.io/home_page.html#leaderboard), please send model responses to **yifanzhang.cs@gmail.com**, as the format of [output_test_template.json](./evaluation/output_test_template.json).
 
 
 ## Experimental Results
