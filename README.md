@@ -17,6 +17,7 @@
 ---
 
 ## 🔥 News
+* **`2025.01.23`** 🌟 MME-RealWorld has been accepted by ICLR!
 * **`2024.11.14`** 🌟 MME-RealWorld now has a [lite version](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld-Lite) (50 samples per task, or all if fewer than 50) for inference acceleration, which is also supported by VLMEvalKit and Lmms-eval.
 * **`2024.11.11`** 🌟 [Awaker2.5-VL-10B](https://github.com/MetabrainAGI/Awaker) by [Metabrain AGI](https://www.metabrainagi.com/) currently holds the top position on our leaderboard. It is also the first model with 10 billion parameters to achieve a passing performance (60.8%). For more details, visit our [leaderboard](https://mme-realworld.github.io/home_page.html#leaderboard).
 * **`2024.09.22`** 🌟 MME-RealWorld is now supported by [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) and [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)! Feel free to use it without hesitation!
