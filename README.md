@@ -160,6 +160,9 @@ subtasks in each domain.
     <img src="./asset/results_reasoning_cn.png" width="96%" height="50%">
 </p>
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yfzhang114/MME-RealWorld&type=Date)](https://star-history.com/#yfzhang114/MME-RealWorld&Date)
 
 ## Citation
 
