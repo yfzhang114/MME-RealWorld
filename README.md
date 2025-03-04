@@ -17,7 +17,7 @@
 ---
 
 ## 🔥 News
-* **`2025.01.23`** 🌟 MME-RealWorld has been accepted by ICLR!
+* **`2025.03.04`** 🌟 MME-RealWorld has been accepted by ICLR 2025 and is supported by [Model Scope](https://modelscope.cn/datasets/yifanzhang/MME-RealWorld)!
 * **`2024.11.14`** 🌟 MME-RealWorld now has a [lite version](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld-Lite) (50 samples per task, or all if fewer than 50) for inference acceleration, which is also supported by VLMEvalKit and Lmms-eval.
 * **`2024.11.11`** 🌟 [Awaker2.5-VL-10B](https://github.com/MetabrainAGI/Awaker) by [Metabrain AGI](https://www.metabrainagi.com/) currently holds the top position on our leaderboard. It is also the first model with 10 billion parameters to achieve a passing performance (60.8%). For more details, visit our [leaderboard](https://mme-realworld.github.io/home_page.html#leaderboard).
 * **`2024.09.22`** 🌟 MME-RealWorld is now supported by [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) and [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)! Feel free to use it without hesitation!
@@ -114,7 +114,7 @@ We offer two methods for downloading our images and QA pairs:
 
 1. **Base64 Encoded Images**: We have encoded all images in Base64 format and uploaded them to our [Hugging Face repository](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld-Base64), which includes two folders: `MME-RealWorld` and `MME-RealWorld-CN`. The JSON files within these folders can be read directly, with the images in Base64 format. By using the `evaluation/download_and_prepare_prompt.py` script and creating a class `MMERealWorld`, you can automatically download and convert the data into a CSV file that can be used directly. You can use the `decode_base64_to_image_file` function to convert the Base64 formatted images back into PIL format.
 
-2. **Direct Image Download**: You can download the images and data directly from our [Baidu Netdisk](https://pan.baidu.com/s/1KO1t14TLN1RcwN5whbVY1g?pwd=p82w) or [Hugging Face repository](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld). For Hugging Face, follow the instructions to decompress the split compressed images. The file `MME_RealWorld.json` contains the English version of the questions, while `MME_RealWorld_CN.json` contains the Chinese version. Make sure to place all the decompressed images in the same folder to ensure the paths are read correctly.
+2. **Direct Image Download**: You can download the images and data directly from our [Baidu Netdisk](https://pan.baidu.com/s/1KO1t14TLN1RcwN5whbVY1g?pwd=p82w) or [Hugging Face repository](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld) or [Model Scope](https://modelscope.cn/datasets/yifanzhang/MME-RealWorld). For Hugging Face, follow the instructions to decompress the split compressed images. The file `MME_RealWorld.json` contains the English version of the questions, while `MME_RealWorld_CN.json` contains the Chinese version. Make sure to place all the decompressed images in the same folder to ensure the paths are read correctly.
 
 
 To extract the answer and calculate the scores, we add the model response to a JSON file. Here we provide an example template [output_test_template.json](./evaluation/output_test_template.json). Once you have prepared the model responses in this format, please refer to the evaluation script [eval_your_results.py](./evaluation/eval_your_results.py), and you will get the accuracy scores across categories, subtasks, and task types. 
